@@ -43,23 +43,42 @@
             <div class="form-group">
                 <div class="form-row">
                     <div class="col">
-                        <label for="FirstnameInput">Subject Code</label>
-                        <input id="sub" type="text" class="form-control" placeholder="Subject Code">
-                    </div>
-                    <div class="col">
-                        <label for="LastnameInout">Semester</label>
+                        <label for="LastnameInout" class="font-weight-bolder">Semester</label>
                         <input id="sem" type="text" class="form-control" placeholder="Semester">
                     </div>
                     <div class="col">
-                        <label for="FirstnameInput">Grade</label>
+                        <label for="FirstnameInput" class="font-weight-bolder">Subject Code</label>
+                        <input id="sub" type="text" class="form-control" placeholder="Subject Code">
+                    </div>
+                    <div class="col">
+                        <label for="FirstnameInput" class="font-weight-bolder">Grade</label>
                         <input id="gpa" type="text" class="form-control" placeholder="Grade">
+                    </div>
+                    <div class="col">
+                        <label for="FirstnameInput" class="font-weight-bolder">Credit</label>
+                        <input id="cre" type="text" class="form-control" placeholder="Credit">
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" type="submit">add</button>
+            <div class="text-right">
+                <button class="btn btn-primary" type="submit">add</button>
+            </div>
         </form>
-        <div id="task" style="margin:10px ;">
-        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Semester</th>
+                    <th scope="col">Subject Code</th>
+                    <th scope="col">Grade</th>
+                    <th scope="col">Credit</th>
+                </tr>
+                <tr id="task"></tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <!-- <div id="task" style="margin:10px ;" align="center">
+        </div> -->
     </div>
 </body>
 
