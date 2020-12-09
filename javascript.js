@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if (sub != '' && sem != '' && gpa != '' ) {
             list.append(semester)
             list.append(subject)
-            list.append(grade)
             list.append(credit)
+            list.append(grade)
             list.append(deleteButton)
             task.append(list)
             //reset input
@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         //calculate gpa
-        const real_gpa = 
 
 
 
